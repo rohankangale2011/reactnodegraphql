@@ -29,7 +29,6 @@ class App extends Component {
 
     if(response.status === 200) {
       const respData = await response.json();
-      console.log('Final:',respData);
       this.setState({ data: respData.data.employees})
     }
   }
