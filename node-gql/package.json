@@ -1,0 +1,22 @@
+{
+  "name": "node-graphql",
+  "version": "1.0.0",
+  "description": "A graphql implementation in nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js --exec babel-node --presets node6"
+  },
+  "author": "rohan_kangale",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-node6": "^11.0.0",
+    "babel-register": "^6.26.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2",
+    "lodash": "^4.17.11",
+    "nodemon": "^1.18.9"
+  }
+}
