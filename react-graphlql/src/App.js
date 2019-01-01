@@ -37,9 +37,14 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="app-cnt">
+        <h2>Employee List</h2>
         {this.state.data.map((item, index) => (
-          <div key={index}>{item.name}</div>
+          <div key={index} className="item-cnt">
+            <div className="name">{item.name}</div>
+            <div className="email">{item.email}</div>
+            <div className="designation">{item.designation}</div>
+          </div>
         ))}
       </div>
     );
